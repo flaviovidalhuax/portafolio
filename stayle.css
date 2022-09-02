@@ -279,10 +279,10 @@ font-family: 'Rubik', sans-serif;
 .container_img_slider .slider{
     display: flex;
     align-items: center;
-    
+    background-color: #04AA6D;
     justify-content: center;
     padding: 5px;
-    width: 500px;
+    width: 400px; /*aqui*/
     height: 200px;
     overflow: hidden;
 
@@ -290,6 +290,8 @@ font-family: 'Rubik', sans-serif;
 
 }
 .container_img_slider .slider img{
+    width: 100%;    /*tamaño de la imagen*/
+    height: 100%;
     margin: 3px;
 }
 .container_img_slider .control{
@@ -305,14 +307,14 @@ font-family: 'Rubik', sans-serif;
 .container_img_slider .next{
     left: 0;
     top:50%;
-    transform: translate(-30%,-50%);
+    transform: translate(30%,-50%);
     background-color: aliceblue;    
 }
 
 .container_img_slider .before{
     right: 0;
     top:50%;
-    transform: translate(30%,-50%);
+    transform: translate(-30%,-50%);
     background-color: antiquewhite;
 
 } /* imagen label lateral */
@@ -333,6 +335,14 @@ font-family: 'Rubik', sans-serif;
    border-radius: .2rem;
   
 }
+.github{
+    color: var(--Leter);
+}
+.github:hover{
+    color: #04AA6D;
+    transform: scale(2, .5)
+}
+
 @media (min-width: 700px) {
     .box_icon{
         background-color: rgb(206, 160, 41);
