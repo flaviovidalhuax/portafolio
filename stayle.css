@@ -106,7 +106,11 @@ font-family: 'Rubik', sans-serif;
     width: 50px;
     padding: .7rem;
     border-radius: 50%;
- 
+
+    position: fixed;
+    z-index: 10;
+    top:50px
+    
 }
 
 .hamberger:hover{
@@ -119,6 +123,9 @@ font-family: 'Rubik', sans-serif;
  .natvar{
     width: 100%;
     height: 50px;
+    position: relative;
+    z-index: 100;
+    left: 20px;
 }
  .menu_show{
     position: absolute;
