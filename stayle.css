@@ -382,6 +382,7 @@ font-family: 'Rubik', sans-serif;
         row-gap: .5rem;
         padding: 1rem;
     }
+      /*      ------------        */
     .slider_range { /*aqui*/
         -webkit-appearance: none;
         width: 100%;
@@ -408,6 +409,7 @@ font-family: 'Rubik', sans-serif;
         scroll-behavior: smooth;
     
     }
+    /*      ------------        */
     .box_label_main{
         padding: 1rem;
         display: flex;
